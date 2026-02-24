@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for i in range(0, 99):
-    print("{} = {}".format(i, hex(i)), end=", " if i != 98 else "\n")
+for numb in range(0, 99):
+    print("{:d} = 0x{:x}".format(numb, numb))
