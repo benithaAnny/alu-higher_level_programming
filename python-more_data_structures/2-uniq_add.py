@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-def common_elements(set_1, set_2):
-    inter_set = set_1 & set_2
-    return inter_set
+def uniq_add(my_list=[]):
+    if not my_list:
+        return 0
+    uniq_add = set(my_list)
+    return int(sum(uniq_add))

@@ -1,6 +1,10 @@
 #!/usr/bin/python3
-def uniq_add(my_list=[]):
+def search_replace(my_list, search, replace):
+    new_list = my_list.copy()
     if not my_list:
-        return 0
-    uniq_add = set(my_list)
-    return int(sum(uniq_add))
+        return new_list
+    for i in range(len(my_list)):
+        if new_list[i] == search:
+            new_list[i] = replace
+
+    return new_list
