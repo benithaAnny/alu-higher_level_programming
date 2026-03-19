@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for c in range(97, 123):
-    if c not in (101, 113):
-        print("{}".format(chr(c)), end="")
+for me in range(97, 123):
+    if me != 113 and me != 101:
+        print("{}".format(chr(me)), end="")
