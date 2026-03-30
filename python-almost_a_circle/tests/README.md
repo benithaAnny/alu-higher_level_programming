@@ -1,1 +1,1 @@
-this is my readme
+find more info here 
