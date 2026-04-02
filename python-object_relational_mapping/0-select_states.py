@@ -1,5 +1,4 @@
-
-    #!/usr/bin/python3
+#!/usr/bin/python3
 """
 Script that lists all `states` from the database `hbtn_0e_0_usa`.
 Arguments:
@@ -25,4 +24,3 @@ if __name__ == "__main__":
 
     for row in rows:
         print(row)
-   
